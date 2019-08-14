@@ -35,7 +35,7 @@ function verifyAcres() {
    var messageText = "";
    try {
       if (!(acresBox.value > 0)) {
-         throw "Please enter a number of acres greater    than 0.";
+         throw "Please enter a number of acres greater 12 than 0.";
       }
    } catch (message) {
       validity = false;
