@@ -111,7 +111,7 @@ function previewThree() {
    figureCount = 3;
    numberButton.innerHTML = "Show more images";
    if (numberButton.addEventListener) {
-      numberButton.removeEventListener("click", previewthree, false);
+      numberButton.removeEventListener("click", previewThree, false);
       numberButton.addEventListener("click", previewFive, false);
    } else if (numberButton.attachEvent) {
       numberButton.detachEvent("onclick", previewThree);
@@ -129,7 +129,7 @@ function zoomFig() {
    var propertyHeight = 600;
    var winLeft = ((screen.width - propertyWidth) / 2);
    var winTop = ((screen.height - propertyHeight) / 2);
-   var winOptions = "width=960,height=600,";
+   var winOptions = "width= 960,height= 600,";
    winOptions += ",left=" + winLeft;
    winOptions += ",top=" + winTop;
 }
